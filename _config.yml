@@ -20,7 +20,8 @@ words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # https://help.disqus.com/customer/portal/
+    # s/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -83,12 +84,12 @@ analytics:
 # Site Author
 author:
   name             : "Alex-hyun"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am late. I have to study quickly!!"
+  avatar           : "/assets/profile-gray.png"
+  bio              : "I am late. I'll follow you!!"
   location         : "Somewhere"
-  email            : "glowhyun1@gmail.com"
+  # email            : "glowhyun1@gmail.com"
   links:
-    - # label: "Email"
+    - #label: "Email"
       # icon: "fas fa-fw fa-envelope-square"
       # url: "glowhyun1@gmail.com"
     - label: "Website"
@@ -268,6 +269,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar_main: true
 
 
 _pages:
@@ -277,7 +279,7 @@ _pages:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: # true
       comments: # true
       share: true
       related: true

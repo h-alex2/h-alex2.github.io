@@ -4,33 +4,17 @@ date: 2021-05-15
 category: javascript
 tags:
   - JavaScript
+toc: true
+toc_sticky: true
+toc_label: “On this page”
+# header:
+#   video:
+#     id: XsxDH4HcOWA
+#     provider: youtube
 ---
 
 <link rel="stylesheet" type="text/css" href="/assets/markdown.css">
 
-
-
-<!-- TOC START min:1 max:4 link:true asterisk:false update:true -->
-  - [자바스크립트의 공식사이트는?](#자바스크립트의-공식사이트는)
-  - [html에서 자바스크립트를 어떻게 포함하는게 좋을까?](#html에서-자바스크립트를-어떻게-포함하는게-좋을까)
-    - [1. head에 바로 script를 포함하는 경우](#1-head에-바로-script를-포함하는-경우)
-    - [2. body 끝부분에 script 추가하기](#2-body-끝부분에-script-추가하기)
-    - [3. head안에 script를 이용하되 async(에이씽크)라는 속성값 쓰기](#3-head안에-script를-이용하되-async에이씽크라는-속성값-쓰기)
-    - [3-1. async 상황에서 script가 여러 개일 경우](#3-1-async-상황에서-script가-여러-개일-경우)
-    - [4. 3과 똑같이 head안에 넣고 asyc대신 defer 속성값 쓰기](#4-3과-똑같이-head안에-넣고-asyc대신-defer-속성값-쓰기)
-    - [4-1. async 상황에서 script가 여러 개일 경우](#4-1-async-상황에서-script가-여러-개일-경우)
-  - [모르는 단어 찾아보기](#모르는-단어-찾아보기)
-      - [parsing](#parsing)
-      - [executing](#executing)
-      - [prototype 프로토 타입](#prototype-프로토-타입)
-      - [ecmascript](#ecmascript)
-      - [debugging 디버깅](#debugging-디버깅)
-    - [-  바닐라 자바스크립트](#---바닐라-자바스크립트)
-    - [-  타입 스크립트](#---타입-스크립트)
-  - [바닐라 자바스크립트 이용하기 전에 'use strict 정의해주기'](#바닐라-자바스크립트-이용하기-전에-use-strict-정의해주기)
-<!-- TOC END -->
-
----
 
 
 |[![드림코딩 by 엘리-자바스크립트](http://img.youtube.com/vi/tJieVCgGzhs/0.jpg)](https://www.youtube.com/watch?v=tJieVCgGzhs)|
@@ -38,6 +22,9 @@ tags:
 |자바스크립트 2. 콘솔에 출력, script async 와 defer의 차이점 및 <br>앞으로 자바스크립트 공부 방향  프론트엔드 개발자 입문편 (JavaScript ES5+)|
 
 <br>
+
+{% include video id="VYOjWnS4cMY" provider="youtube" %}
+
 
 1. node.js 설치
 2. cmd에 console.log('Hello World!');  입력 후 폴더에 main.js로 저장
@@ -156,7 +143,7 @@ asyn는 boolean타입의 속성값이기 때문에 선언하는 것 만으로 tr
 
 <br>
 
-## 바닐라 자바스크립트 이용하기 전에 'use strict 정의해주기'
+### 바닐라 자바스크립트 이용하기 전에 'use strict 정의해주기'
  바닐라 자바스크립트를 이용하기 전에 제일 윗부분에 'use strict';을 정의해주자
 __타입 스크립트__ 를 쓸 때는 안써도 되지만 순수 __바닐라 js__ 를 쓸 때는 꼭 쓰는 게 좋다.
 

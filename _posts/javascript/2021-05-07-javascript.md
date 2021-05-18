@@ -2,9 +2,13 @@
 title: "생활코딩 - WEB2 - JavaScript"
 date: 2021-05-07
 category: javascript
+categories: js
 tags:
   - javascript
   - 생활코딩
+toc: true
+toc_sticky: true
+toc_label: “On this page”
 ---
 
 
@@ -438,7 +442,7 @@ input에 id값을 "night_day"로 주고 if와 else를 사용하여 value 값으�
 |:---:|
 |WEB2 JavaScript - 18.리팩토링 중복의 제거|
 
-### 리팩토링이란?<br/>
+__리팩토링__이란?<br/>
 우리가 코딩을 하고나면 코드가 비효율적인 면이 생기기 마련<br/>
 코드 자체를 효율적이게 만들어서 유지보수하는 것.
 
@@ -540,7 +544,7 @@ if (this.value === 'night'){
 |:---:|
 |WEB2 JavaScript - 20.배열|
 
-### Syntax란?
+__Syntax __ 란?
 1. 언어- 구문론, 통사론
 2. (컴퓨터 언어의) 문법을 뜻한다.
 
@@ -647,7 +651,7 @@ array의 유형은 굉장히 많다.
 |:---:|
 |WEB2 JavaScript - 22.배열과 반복문|
 
-## <span style="color:red"> 중요 </span>
+ <span style="color:red"> 중요 </span>
 배열과 변수를 사용하여 변수안의 값을 리스트화 시키기
 
 
@@ -788,7 +792,7 @@ VM7490:4 <a href=​"3.html">​JavaScript​</a>​
 |:---:|
 |WEB2 JavaScript - 25.함수|
 
-## 함수
+함수
 - 영어로 : function
 - 객체를 배우면 : method라고 부르는 경우도 있다. <br>
 
@@ -863,7 +867,7 @@ VM7490:4 <a href=​"3.html">​JavaScript​</a>​
 <br>
 <br>
 
-### 표현식 : expression이 무엇인가?<br>
+_표현식 : expression이 무엇인가?_ <br>
 1+1 <br>
 : 2 <br>
 -> 1+1은 2에 대한 __표현식__ 이다.

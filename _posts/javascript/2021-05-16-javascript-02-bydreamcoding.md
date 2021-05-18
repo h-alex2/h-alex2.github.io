@@ -4,6 +4,9 @@ date: 2021-05-16
 category: javascript
 tags:
   - JavaScript
+toc: true
+toc_sticky: true
+toc_label: “On this page”
 ---
 
 <link rel="stylesheet" type="text/css" href="/assets/css/markdown.css">

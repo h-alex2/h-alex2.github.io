@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\_posts",
+    "\\_posts\\javascript"
   ],
-  "SelectedNode": "\\_config.yml",
+  "SelectedNode": "\\.github\\stale.yml",
   "PreviewInSolutionExplorer": false
 }

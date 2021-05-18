@@ -1,10 +1,8 @@
 # main links
 main:
-  - title: "Categories"
+  - title: "Category"
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Planner"
-    url: /planner/
-  - title: "연도별 포스트"
-    url: /posts/
+  - title: "Monthly"
+    url: /month-archive/  

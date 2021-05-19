@@ -1,7 +1,7 @@
 ---
 title: "생활코딩 - WEB2 - JavaScript"
 date: 2021-05-07
-category: js
+category: javascript
 tags:
   - javascript
   - 생활코딩

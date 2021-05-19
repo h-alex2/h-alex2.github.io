@@ -1,6 +1,6 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -258,37 +258,24 @@ compress_html:
 
 # Defaults
 defaults:
+  -
+    scope:
+      path: "" 
+    values:
+      layout: "default"
+      sidebar_main: true
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      showdata: true
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: # true
       share: true
       related: true
-      sidebar_main: true
-
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      showdata: true
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: # true
-      share: true
-      related: true
-      sidebar_main: true
-
-
+      
 
 
 _pages:
@@ -302,5 +289,5 @@ _pages:
       comments: # true
       share: true
       related: true
-      sidebar_main: true
+
 

@@ -1,7 +1,7 @@
 ---
 title: "Dream Coding-JavaScript 01"
 date: 2021-05-15
-category: JavaScript
+category: javascript
 tags:
   - JavaScript
 toc: true

@@ -1,7 +1,7 @@
 ---
 title: "자주 쓰는 것들 모음"
 date: 2021-05-08
-category: Jekyll
+category: favoritepage
 tags:
   - Github
   - Jekyll

@@ -1,14 +1,14 @@
 ---
 title: "생활코딩 - WEB2 - JavaScript"
 date: 2021-05-07
-category: javascript
-categories: js
+category: js
 tags:
   - javascript
   - 생활코딩
 toc: true
 toc_sticky: true
 toc_label: “On this page”
+author_profile: true
 ---
 
 

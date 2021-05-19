@@ -263,13 +263,32 @@ defaults:
       path: ""
       type: posts
     values:
+      showdata: true
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
       sidebar_main: true
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      showdata: true
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: # true
+      share: true
+      related: true
+      sidebar_main: true
+
+
 
 
 _pages:
@@ -283,3 +302,5 @@ _pages:
       comments: # true
       share: true
       related: true
+      sidebar_main: true
+

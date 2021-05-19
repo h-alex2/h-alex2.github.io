@@ -141,6 +141,13 @@ a {
   }
 }
 
+a:hover {
+  background-color:#FFE166;
+}
+
+
+
+
 /* buttons */
 
 button:focus {
@@ -318,7 +325,7 @@ nav {
   /* override white-space for nested lists */
   ul li,
   ol li {
-    // margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   li ul,

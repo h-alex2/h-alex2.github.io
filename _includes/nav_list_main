@@ -46,10 +46,11 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">etc.</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Programmers" %}
-                        <li><a href="/categories/programmers" class="">프로그래머스 ({{category[1].size}})</a></li>
+                    {% if category[0] == "jekyll" %}
+                        <li><a href="/categories/jekyll" class="">Jekyll ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

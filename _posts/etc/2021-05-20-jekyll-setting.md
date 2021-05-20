@@ -48,7 +48,7 @@ jekyll 블로그 생성에 필요한 것
 - bundler (이건 미리 설치안해도 된다. 밑 9번 차례에 설치하면 됨.)
 
 
-1. GITHUB Repositories 만들기 리파지토리 이름 : 자신의 아이디.github.io 이렇게
+1. GITHUB Repositories 만들기 리파지토리 이름 : 자신의 아이디.github.io 이렇게.
 
 2. 위에 준비물 다 설치하고 설치된 것 잘 설치됐는지 확인하기 위해서 
 명령프롬프트나 터미널에 ruby -v, gem -v, git -v 눌려서 확인하기 (따로 따로 누르기)  

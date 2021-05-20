@@ -11,7 +11,7 @@ toc_label: “On this page”
 author_profile: true
 ---
 
-
+<br>
 
 <div style="text-align: right"> 생활코딩 WEB2 - JavaScript을 보고 저에게 맞게 정리한 글입니다.<br>
 <a href="https://opentutorials.org/course/3085" target="_blank">생활코딩 사이트로 이동합니다.</a> <br>
@@ -26,9 +26,7 @@ author_profile: true
 
 # 3.HTML과 JS의 만남 : script 태그
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/Ru5zGHkOgic/0.jpg)](https://www.youtube.com/watch?v=Ru5zGHkOgic)|
-|:---:|
-|WEB2 JavaScript - 3.HTML과 JS의 만남 : script 태그|
+{% include video id="Ru5zGHkOgic" provider="youtube" %}
 
 
 javascrip를 사용하려면 스크립트 선언을 해주어야한다.
@@ -70,9 +68,7 @@ javascrip를 사용하려면 스크립트 선언을 해주어야한다.
 
 
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/-hdtrReY9Zw/0.jpg)](https://www.youtube.com/watch?v=-hdtrReY9Zw)|
-|:---:|
-|WEB2 JavaScript - 4.HTML과 JS의 만남 : 이벤트|
+{% include video id="hdtrReY9Zw" provider="youtube" %}
 
 
 
@@ -125,11 +121,7 @@ javascript keydown event attribute검색
   <br>
 # 5.HTML과 JS의 만남 (콘솔)
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/-VKIqaEdDVU/0.jpg)](https://www.youtube.com/watch?v=-VKIqaEdDVU)|
-|:---:|
-|WEB2 JavaScript - 5.HTML과 JS의 만남 (콘솔)|
-
-
+{% include video id="VKIqaEdDVU" provider="youtube" %}
 
 페이지검사 - Console 로 가면 파일을 만들지 않고도 자바스크립트를 실행할 수 있다.<br/>
 예를들어 아무 텍스트를 Console에 복붙하고 복붙을 text라고 했을 때<br/>
@@ -151,9 +143,9 @@ alert('text'.length) 하고 enter를 누르면 문자의 개수가 alert로 뜬�
 <br>
 # 6.데이터타입 - 문자열과 숫자
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/P8C8VNiM33A/0.jpg)](https://www.youtube.com/watch?v=P8C8VNiM33A)|
-|:---:|
-|WEB2 JavaScript - 6.데이터타입 - 문자열과 숫자|
+
+{% include video id="P8C8VNiM33A" provider="youtube" %}
+
 
 google - <u>javascrips data type</u> 검색 <br/>
 <https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures>
@@ -206,10 +198,7 @@ number에서 중요한 것은 연산이다 +, - ...
 <br>
 <br>
 # 7.변수와 대입 연산자
-
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/absJhWQAS40/0.jpg)](https://www.youtube.com/watch?v=absJhWQAS40)|
-|:---:|
-|WEB2 JavaScript - 7.변수와 대입 연산자|
+{% include video id="absJhWQAS40" provider="youtube" %}
 
 ```
 x=1;
@@ -244,12 +233,7 @@ var word = 'example'; <br/>
 <br>
 <br>
 # 8.웹브라우저 제어
-
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/5tqfbgfA1LY/0.jpg)](https://www.youtube.com/watch?v=5tqfbgfA1LY)|
-|:---:|
-|WEB2 JavaScript - 12.제어할 태그 선택하기|
-
-
+{% include video id="5tqfbgfA1LY" provider="youtube" %}
 
 
 ```html
@@ -322,10 +306,8 @@ element = document.querySelector(selectors)
 <br>
 
 # 13.프로그램,프로그래밍,프로그래머
+{% include video id="p71PrgY0bbM" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/p71PrgY0bbM/0.jpg)](https://www.youtube.com/watch?v=p71PrgY0bbM)|
-|:---:|
-|WEB2 JavaScript - 13.프로그램,프로그래밍,프로그래머|
 
 |    |HTML|JAVASCRIPT|
 |:--:|:--:|:--:|
@@ -346,10 +328,9 @@ element = document.querySelector(selectors)
 <br>
 
 # 15. 비교 연산자와 블리언
+{% include video id="A2qp-jpk_XA" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/A2qp-jpk_XA/0.jpg)](https://www.youtube.com/watch?v=A2qp-jpk_XA)|
-|:---:|
-|WEB2 JavaScript - 15. 비교 연산자와 블리언|
+
 
 <span style = "color:red"> 하나의 프로그램이 하나의 흐름으로 가는 것이 아니라 조건에 따라 다르게 실행된다.
  </span>
@@ -403,12 +384,7 @@ html에서 꺽새를 인식하기 때문에 바꿔주는 것.
 <br>
 
 # 17.조건문의 활용
-
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/Gt2iGEEKXww/0.jpg)](https://www.youtube.com/watch?v=Gt2iGEEKXww)|
-|:---:|
-|WEB2 JavaScript - 17.조건문의 활용|
-
-
+{% include video id="Gt2iGEEKXww" provider="youtube" %}
 
 
 boolean을 어디서 쓸까?
@@ -436,11 +412,10 @@ input에 id값을 "night_day"로 주고 if와 else를 사용하여 value 값으�
 <br>
 
 # 18.리팩토링 중복의 제거
+{% include video id="vwRkFRke7ls" provider="youtube" %}
 
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/vwRkFRke7ls/0.jpg)](https://www.youtube.com/watch?v=vwRkFRke7ls)|
-|:---:|
-|WEB2 JavaScript - 18.리팩토링 중복의 제거|
+
 
 __리팩토링__이란?<br/>
 우리가 코딩을 하고나면 코드가 비효율적인 면이 생기기 마련<br/>
@@ -539,10 +514,9 @@ if (this.value === 'night'){
 <br>
 
 # 20.배열
+{% include video id="aBJzzhQ6y-o" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/aBJzzhQ6y-o/0.jpg)](https://www.youtube.com/watch?v=aBJzzhQ6y-o)|
-|:---:|
-|WEB2 JavaScript - 20.배열|
+
 
 __Syntax __ 란?
 1. 언어- 구문론, 통사론
@@ -589,10 +563,9 @@ array의 유형은 굉장히 많다.
 <br>
 
 # 21.반복문
+{% include video id="ZupPmuWPSdE" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/ZupPmuWPSdE/0.jpg)](https://www.youtube.com/watch?v=ZupPmuWPSdE)|
-|:---:|
-|WEB2 JavaScript - 21.반복문|
+
 
 ```html
 <body>
@@ -646,10 +619,10 @@ array의 유형은 굉장히 많다.
 <br>
 
 # 22.배열과 반복문
+{% include video id="BjkfkKdlvLo" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/BjkfkKdlvLo/0.jpg)](https://www.youtube.com/watch?v=BjkfkKdlvLo)|
-|:---:|
-|WEB2 JavaScript - 22.배열과 반복문|
+
+
 
  <span style="color:red"> 중요 </span>
 배열과 변수를 사용하여 변수안의 값을 리스트화 시키기
@@ -709,11 +682,7 @@ array의 유형은 굉장히 많다.
 <br>
 
 # 23.배열과 반복문의 활용
-
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/hZdBDoYHd7E/0.jpg)](https://www.youtube.com/watch?v=hZdBDoYHd7E)|
-|:---:|
-|WEB2 JavaScript - 23.배열과 반복문의 활용|
-
+{% include video id="hZdBDoYHd7E" provider="youtube" %}
 ---
 
 앞서 했던 night, day 버튼으로 배경색을 바꿨을 때 하이퍼링크 색깔이 파랑색이라 잘 안보였다.
@@ -787,10 +756,9 @@ VM7490:4 <a href=​"3.html">​JavaScript​</a>​
 <br>
 
 # 25.함수
+{% include video id="IOuePUzLdnQ" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/IOuePUzLdnQ/0.jpg)](https://www.youtube.com/watch?v=IOuePUzLdnQ)|
-|:---:|
-|WEB2 JavaScript - 25.함수|
+
 
 함수
 - 영어로 : function
@@ -816,10 +784,10 @@ VM7490:4 <a href=​"3.html">​JavaScript​</a>​
 <br>
 
 # 26.함수 : 매개변수와 인자
+{% include video id="MXf9UqMXuGM" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/MXf9UqMXuGM/0.jpg)](https://www.youtube.com/watch?v=MXf9UqMXuGM)|
-|:---:|
-|WEB2 JavaScript - 26.함수 : 매개변수와 인자|
+
+
 
 함수는 __입력__ 과 __출력__ 으로 이뤄져있다. <br>
 입력
@@ -859,10 +827,10 @@ VM7490:4 <a href=​"3.html">​JavaScript​</a>​
 <br>
 
 # 27.함수 (리턴)
+{% include video id="6MzCHO8M3Uc" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/6MzCHO8M3Uc/0.jpg)](https://www.youtube.com/watch?v=6MzCHO8M3Uc)|
-|:---:|
-|WEB2 JavaScript - 27.함수 (리턴)|
+
+
 
 <br>
 <br>
@@ -907,10 +875,11 @@ _표현식 : expression이 무엇인가?_ <br>
 <br>
 
 # 29.객체 예고
+{% include video id="6lJEbSYA4B4" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/6lJEbSYA4B4/0.jpg)](https://www.youtube.com/watch?v=6lJEbSYA4B4)|
-|:---:|
-|WEB2 JavaScript - 29.객체 예고|
+
+
+
 
 객체 : object <br>
 함수라는 것 위에서 객체라는 것이 존재하는 것
@@ -1149,10 +1118,10 @@ function nightDayHandler(self){
 <br>
 
 # 30.객체 쓰기와 읽기
+{% include video id="2j04s1erzTs" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/2j04s1erzTs/0.jpg)](https://www.youtube.com/watch?v=2j04s1erzTs)|
-|:---:|
-|WEB2 JavaScript - 30.객체 쓰기와 읽기|
+
+
 
 <br>
 
@@ -1193,10 +1162,10 @@ function nightDayHandler(self){
 <br>
 
 # 31.객체와 반복문
+{% include video id="GIB8O6R3wko" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/GIB8O6R3wko/0.jpg)](https://www.youtube.com/watch?v=GIB8O6R3wko)|
-|:---:|
-|WEB2 JavaScript - 31.객체와 반복문|
+
+
 
 구글에 javascript object iterate 검색<br>
 for in 으로 객체의 데이터를 가져올 수 있다.
@@ -1226,10 +1195,9 @@ for in 으로 객체의 데이터를 가져올 수 있다.
 <br>
 
 # 32.객체프로퍼티와 메소드
+{% include video id="mjzx1qbyPwU" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/mjzx1qbyPwU/0.jpg)](https://www.youtube.com/watch?v=mjzx1qbyPwU)|
-|:---:|
-|WEB2 JavaScript - 32.객체프로퍼티와 메소드|
+
 
 
 객체에는 데이터를 담을 수 있다.<br>
@@ -1273,10 +1241,10 @@ for in 으로 객체의 데이터를 가져올 수 있다.
 <br>
 <br>
 # 33.객체의 활용
+{% include video id="JNaX6EG9-FI" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/JNaX6EG9-FI/0.jpg)](https://www.youtube.com/watch?v=JNaX6EG9-FI)|
-|:---:|
-|WEB2 JavaScript - 33.객체의 활용|
+
+
 
 <br>
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="hyunjung21ef" data-slug-hash="YzZyXrx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="생활코딩 29강">
@@ -1338,10 +1306,11 @@ var Body = {
 <br>
 <br>
 # WEB2 JavaScript - 34.파일로 쪼개서 정리 정돈하기
+{% include video id="1f7Svm6ivDY" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/1f7Svm6ivDY/0.jpg)](https://www.youtube.com/watch?v=1f7Svm6ivDY)|
-|:---:|
-|WEB2 JavaScript - 34.파일로 쪼개서 정리 정돈하기|
+
+
+
 
 연관된 코드들을 파일로 묶어서 그룹핑
 script태그가 들어가면 안됨
@@ -1360,10 +1329,10 @@ script태그가 들어가면 안됨
 <br>
 <br>
 # WEB2 JavaScript - 35.라이브러리와 프레임워크
+{% include video id="pJTpl3umvE8" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/pJTpl3umvE8/0.jpg)](https://www.youtube.com/watch?v=pJTpl3umvE8)|
-|:---:|
-|WEB2 JavaScript - 35.라이브러리와 프레임워크|
+
+
 
 __library__ VS __framework__
 - library
@@ -1422,10 +1391,8 @@ jquery부분 들어가서 제일 최신버전 copy해준다.
 <br>
 
 # 36.UI vs API
+{% include video id="FrqgeNgUSB0" provider="youtube" %}
 
-|[![생활코딩-자바스크립트](http://img.youtube.com/vi/FrqgeNgUSB0/0.jpg)](https://www.youtube.com/watch?v=FrqgeNgUSB0)|
-|:---:|
-|WEB2 JavaScript - 36.UI vs API|
 
 <br>
 

@@ -16,14 +16,9 @@ toc_label: “On this page”
 <link rel="stylesheet" type="text/css" href="/assets/markdown.css">
 
 
-
-|[![드림코딩 by 엘리-자바스크립트](http://img.youtube.com/vi/tJieVCgGzhs/0.jpg)](https://www.youtube.com/watch?v=tJieVCgGzhs)|
-|:---:|
-|자바스크립트 2. 콘솔에 출력, script async 와 defer의 차이점 및 <br>앞으로 자바스크립트 공부 방향  프론트엔드 개발자 입문편 (JavaScript ES5+)|
-
 <br>
 
-{% include video id="VYOjWnS4cMY" provider="youtube" %}
+{% include video id="tJieVCgGzhs" provider="youtube" %}
 
 
 1. node.js 설치

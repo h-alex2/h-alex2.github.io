@@ -12,11 +12,7 @@ toc_label: “On this page”
 <link rel="stylesheet" type="text/css" href="/assets/css/markdown.css">
 
 <br>
-
-|[![드림코딩 by 엘리-자바스크립트](http://img.youtube.com/vi/OCCpGh4ujb8/0.jpg)](https://www.youtube.com/watch?v=OCCpGh4ujb8)|
-|:---:|
-|자바스크립트 3. 데이터타입, data types, let vs var, hoisting <br> 프론트엔드 개발자 입문편 (JavaScript ES5+)|
-
+{% include video id="OCCpGh4ujb8" provider="youtube" %}
 <br>
 
 

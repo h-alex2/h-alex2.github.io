@@ -87,7 +87,7 @@ author:
   avatar           : "/assets/profile-gray.png"
   bio              : "I am late. I'll follow you!!"
   location         : "Somewhere"
-  # email            : "glowhyun1@gmail.com"
+  email            : "glowhyun1@gmail.com"
   links:
     - #label: "Email"
       # icon: "fas fa-fw fa-envelope-square"

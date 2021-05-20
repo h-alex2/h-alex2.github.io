@@ -1,6 +1,6 @@
 table {
     border-collapse: collapse;
-    text-align: center;
+    /* text-align: center; */
     overflow: hidden;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
@@ -32,6 +32,6 @@ td, tr {
     border:2px solid #94BAD6;
 }
 
-li {
-    font-size: 15px;
+ul {
+    font-size: 18px;
 }

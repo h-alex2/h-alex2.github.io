@@ -16,7 +16,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "favoritepage" %}
-                        <li><a href="/favoritepage/favorite-page" class="">🐳 ({{category[1].size}})</a></li>
+                        <li><a href="/favoritepage/favorite-page" class="" target='_blank'><span style=font-size:50px;>🐳</span> ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

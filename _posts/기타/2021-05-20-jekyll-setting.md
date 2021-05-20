@@ -60,9 +60,10 @@ jekyll 블로그 생성에 필요한 것
 cd D:\폴더위치쓰면 경로 바뀜
 
 5. 내가 쓴 블로그 템플릿 : <https://github.com/mmistakes/minimal-mistakes>   
-(이걸로 고른 이유 : minimal-mistakes는 쓰는 사람도 굉장히 많고 정보도 많은 것 같다. 라고 블로그에서 보았기 때문에)  
-저 주소로 보관 서 코드 다운로드-> 블로그 폴더에 파일, 폴더들만 넣어 놓기또는 
-명령 프롬프트에 git clone https://github.com/mmistakes/minimal-mistakes.git . <-점 붙이기 (명령 프롬프트 위치로 복사 됨)
+(이걸로 고른 이유 : minimal-mistakes는 쓰는 사람도 굉장히 많고 정보도 많은 것 같다. 라고 블로그에서 보았기 때문에) 
+저 주소로 들어가서 code download -> 블로그 폴더에 파일,폴더들만 넣어놓기  
+또는  
+명령 프롬프트에 git clone https://github.com/mmistakes/minimal-mistakes.git . <- 점 붙이기(명령프롬프트 위치로 복사됨)
 
 6. 옮긴 파일들에 Gemfile 있는지 확인하기 없으면 만들어줘야함. 저 템플릿에는 들어있음
 

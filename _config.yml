@@ -262,7 +262,7 @@ defaults:
     scope:
       path: "" 
     values:
-      layout: "default"
+      layout: "single"
       sidebar_main: true
   # _posts
   - scope:
@@ -275,6 +275,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar_main: true
       
 
 

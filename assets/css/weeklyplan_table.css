@@ -3,6 +3,7 @@ table {
     text-align: center;
     border-radius: 1em;
     overflow: hidden;
+    border:2px solid;
 
 }
 table thead {

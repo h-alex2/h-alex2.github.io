@@ -13,12 +13,14 @@ tags:
 {% include video id="OCCpGh4ujb8" provider="youtube" %}
 <br>
 
+ 
+```javascript  
 
-```javascript
 // 1. Use scrict
 // added in ES 5
 // use this for Valina Javascript.
 'use strict';
+
 
 //2. variable
 // let (added in ES6)
@@ -47,9 +49,9 @@ console.log(name);
   // var는 값을 선언하기도 전에 쓸 수가 있다.
   // -> : var hoisting 어디에서 선언했는지 상관없이 항상 제일 위로 선언을 끌어올려주는 것.
   // var를 쓰면 안되는 이유 : 블럭스콥이 없다. 메모리를 많이 먹게 된다.
+```
 
-
-
+```javascript 
 //3. Constants
   //: 한 번 할당하면 값이 절대 바뀌지 않는 것
     //변경이 가능한 것 : mutable
@@ -67,7 +69,9 @@ const maxNumber = 5;
   // 자바스크립트에서 변수를 선언할 수 있는 키워드는 딱 두가지
     //1. mutable type : let
     //2. immutable type : const
+```
 
+``` javascript
 
 //4. Variable types
   //1. primitive, 더 이상 작은 단위로 나눠질 수 없는 single item (한가지의 아이템을 말한다.)
@@ -102,6 +106,9 @@ const maxNumber = 5;
           // 숫자 끝에 'n'만 붙이면 bigint라고 간주되어짐
           console.log(`value: ${bigInt}, type: ${typeof bigInt}`);
           // 최근에 bigInt라는 기능이 추가됨. 추가된지 얼마 안돼서 안쓰는 게 나
+```javascript
+
+```
 
     // 1-2. string
       const char = 'c';
@@ -146,10 +153,6 @@ const maxNumber = 5;
     //name과 age라는 값은 다른 값으로 할당이 가능하다. 
     ellie.age = 21; // 변경이 가능하다.
 
-
-
-
-
     //5. Dynamic typing: dynamically typed language
     // 선언할 떄 어떤 타입인지 선언하지 않고 프로그램에 동작할 때 할당된 값에 따라서 타입이 변경될 수 있다는 것을 의미
     // 빠르게 할 때 굉장히 유연하게 쓸 수 있는 언어지만 다수의 엔지니어들이 다이나믹 타이핑때문에 에러를 만든다.
@@ -169,4 +172,5 @@ const maxNumber = 5;
 
 
     //c, java : statically type language : 변수를 선언할 때 어떤 타입인지 결정해서 타입을 같이 선언
+
     ```

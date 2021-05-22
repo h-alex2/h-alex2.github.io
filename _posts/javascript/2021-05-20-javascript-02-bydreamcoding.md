@@ -1,12 +1,12 @@
 ---
 title: "Dream Coding-JavaScript 03강"
-date: 2021-05-20
+date: 2021-05-22
 category: javascript
 tags:
   - JavaScript
 toc: true
 toc_sticky: true
-toc_label: “On this page”
+toc_label: “3. 데이터타입, data types, let vs var, hoisting”
 ---
 
 <br>

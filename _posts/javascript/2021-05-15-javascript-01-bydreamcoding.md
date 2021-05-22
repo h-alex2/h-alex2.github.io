@@ -6,7 +6,7 @@ tags:
   - JavaScript
 toc: true
 toc_sticky: true
-toc_label: “On this page”
+toc_label: “2. 콘솔에 출력, script async 와 defer의 차이점”
 # header:
 #   video:
 #     id: XsxDH4HcOWA

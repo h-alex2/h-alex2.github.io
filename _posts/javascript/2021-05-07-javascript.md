@@ -7,7 +7,7 @@ tags:
   - 생활코딩
 toc: true
 toc_sticky: true
-toc_label: “On this page”
+toc_label: “생활코딩 - WEB2”
 author_profile: true
 ---
 

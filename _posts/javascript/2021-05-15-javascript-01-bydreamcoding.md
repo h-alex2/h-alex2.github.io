@@ -1,5 +1,5 @@
 ---
-title: "Dream Coding-JavaScript 01"
+title: "Dream Coding-JavaScript 02강"
 date: 2021-05-15
 category: javascript
 tags:

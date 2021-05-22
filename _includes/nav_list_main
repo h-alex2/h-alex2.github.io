@@ -9,13 +9,12 @@
       <!--전체 글 수-->
       <span style=font-size:0.8em;>
       <li>
-           👻<span style=color:gray;>Total</style> {{sum}}
+           <a href="/planw/2105-5rd-week/"><span style=font-size:18px;>👻</a></span> <span style=color:gray;>Total</style> {{sum}}
       </li>
       <li> 
         <span class="nav__sub-title">Menu</span>
             <ul>
-                <a href="/favoritepage/favorite-page" class="" target='_blank'><span style=font-size:45px;>🐳</span> </a></li>
-                <span><a href="/planw/2105-5rd-week/" class=""><span style=font-size:18px;>📖</span> </a></span>
+                <a href="/favoritepage/favorite-page" class="" target='_blank'><span style=font-size:50px;>🐳</span> </a></li>
             </ul>
             <ul>
                 {% for category in site.categories %}

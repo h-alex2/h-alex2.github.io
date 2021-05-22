@@ -111,8 +111,9 @@ body {
     font-size: 0.85em;
   }
 
-  li {
-    font-size: 0.9em;
+  li,
+  dl {
+    font-size: $type-size-5;
   }
 
   /* paragraph indents */
@@ -147,7 +148,7 @@ body {
   dd {
     margin-left: 1em;
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    // font-size: $type-size-6;
   }
 
   .small {

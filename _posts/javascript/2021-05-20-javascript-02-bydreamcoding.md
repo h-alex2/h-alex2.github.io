@@ -22,7 +22,8 @@ toc_label: “3. 데이터타입, data types, let vs var, hoisting”
 ```javascript
 'use strict';
 ```
-### I. 변수
+### I. 변수 Variable, rw(read/write)
+  : 메모리에 값을 읽고 쓰는 게 가능
 
 #### 1. let 
 : ES6에 추가되었다.
@@ -59,8 +60,9 @@ console.log(name);
     - 블럭스콥이 없다. : 메모리를 많이 먹게 된다.
 
 
-#### 4. Constants : const
-  : 한 번 할당하면 값이 절대 바뀌지 않는 것
+#### 4. Constant : const r(read only읽기만 가능)
+  : 한 번 할당하면 값이 절대 바뀌지 않는 것    
+  : 
   - 변경이 가능한 것 : mutable
   - 변경이 가능하지 않은 것 : immutable
   <br>
@@ -81,6 +83,9 @@ const maxNumber = 5;
   : 자바스크립트에서 변수를 선언할 수 있는 키워드는 딱 두 가지.
   1. mutable type : let
   2. immutable type : const
+
+  - Mutable data types : all objects by default are mutable in JS  (js에서는 기본적으로(대체적으로)  모든 오브젝트가 변경이 가능하다.)
+  - Immutable data types : premitive types, frozen objects (i.e. object.freeze())
 
 
 ### II. Variable types

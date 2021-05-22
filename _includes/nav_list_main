@@ -9,27 +9,13 @@
       <!--전체 글 수-->
       <span style=font-size:0.8em;>
       <li>
-            <span style=color:gray;>Total</style> {{sum}}😊
+           👻<span style=color:gray;>Total</style> {{sum}}
       </li>
       <li> 
         <span class="nav__sub-title">Menu</span>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "favoritepage" %}
-                        <li><a href="/favoritepage/favorite-page" class="" target='_blank'><span style=font-size:50px;>🐳</span> ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        <span class="nav__sub-title">To-Do</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
-            <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
-                {% for category in site.categories %}
-                    {% if category[0] == "planw" %}
-                        <li><a href="/planw/2105-4rd-week/" class="">Weekly Plan ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
+                <a href="/favoritepage/favorite-page" class="" target='_blank'><span style=font-size:45px;>🐳</span> </a></li>
+                <span><a href="/planw/2105-5rd-week/" class=""><span style=font-size:18px;>📖</span> </a></span>
             </ul>
             <ul>
                 {% for category in site.categories %}
@@ -39,7 +25,10 @@
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">JavaScript</span>
+                <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "javascript" %}
                         <li><a href="/categories/javascript" class="">JavaScript({{category[1].size}})</a></li>

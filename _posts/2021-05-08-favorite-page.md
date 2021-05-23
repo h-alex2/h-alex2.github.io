@@ -21,4 +21,4 @@ tags:
 
 
 - html 이모지  
-  <https://www.w3schools.com/charsets/ref_emoji.asp>
+  <https://getemoji.com/>

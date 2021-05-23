@@ -201,6 +201,12 @@
       color: gray;
     }
   }
+
+  a:hover {
+    &.site-title {
+      color: #0064A5;
+    }
+  }
   
   img{
     -webkit-transition: none;

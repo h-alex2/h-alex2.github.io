@@ -67,11 +67,14 @@ console.log(name);
   - 변경이 가능하지 않은 것 : immutable
   <br>
   - immutable 데이터타입을 선호한다.
-    <reason>
-    1. Security : 보안상의 이유
-    2. Thread safety : 쓰레드의 안정성. 다양한 쓰레드들이 동시에 변수에 접근해서 값을 변경할 수도 있기 때문에
-    3. human mistakes를 줄여준다.
-//왠만해선 const를 쓰는 게 좋다.
+
+
+- reason
+>1. Security : 보안상의 이유  
+>2. Thread safety : 쓰레드의 안정성. 다양한 쓰레드들이 동시에 변수에 접근해서 값을 변경할 수도 있기 때문에   
+>3. human mistakes를 줄여준다.  
+>왠만해선 const를 쓰는 게 좋다.
+
 
 ```javascript 
 const daysInweek = 7;
@@ -79,7 +82,8 @@ const maxNumber = 5;
 ```
 
 #### 5. 변수 선언 키워드 : let, const
-정리
+- 정리  
+
   : 자바스크립트에서 변수를 선언할 수 있는 키워드는 딱 두 가지.
   1. mutable type : let
   2. immutable type : const

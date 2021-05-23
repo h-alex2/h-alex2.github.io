@@ -106,10 +106,16 @@ body {
 	}
 
   p,
-  li,
-  dl {
+  li {
     font-size: $type-size-52;
   }
+
+  dl {
+    font-size: $type-size-42;
+  }
+
+
+
 
   // li,
   // dl {

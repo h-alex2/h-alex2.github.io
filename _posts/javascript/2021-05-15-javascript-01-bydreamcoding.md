@@ -3,7 +3,7 @@ title: "Dream Coding-JavaScript 02강"
 date: 2021-05-15
 category: javascript
 tags:
-  - JavaScript
+  - DreamCoding
 toc: true
 toc_sticky: true
 toc_label: “2. 콘솔에 출력, script async 와 defer의 차이점”
@@ -13,7 +13,11 @@ toc_label: “2. 콘솔에 출력, script async 와 defer의 차이점”
 #     provider: youtube
 ---
 
-<link rel="stylesheet" type="text/css" href="/assets/markdown.css">
+
+## Dream Coding-JavaScript 02강 - 2. 콘솔에 출력, script async 와 defer의 차이점
+
+
+<link rel="stylesheet" type="text/css" href="/assets/CSS/markdown.css">
 
 
 <br>

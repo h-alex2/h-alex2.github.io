@@ -3,11 +3,12 @@ title: "Dream Coding-JavaScript 03강"
 date: 2021-05-22
 category: javascript
 tags:
-  - JavaScript
+  - DreamCoding
 toc: true
 toc_sticky: true
 toc_label: “3. 데이터타입, data types, let vs var, hoisting”
 ---
+## Dream Coding-JavaScript 03강 - 3. 데이터타입, data types, let vs var, hoisting
 
 <br>
 {% include video id="OCCpGh4ujb8" provider="youtube" %}

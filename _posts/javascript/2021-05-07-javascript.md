@@ -3,7 +3,6 @@ title: "생활코딩 - WEB2 - JavaScript"
 date: 2021-05-07
 category: javascript
 tags:
-  - javascript
   - 생활코딩
 toc: true
 toc_sticky: true
@@ -11,11 +10,11 @@ toc_label: “생활코딩 - WEB2”
 author_profile: true
 ---
 
-<br>
 
-<div style="text-align: right"> 생활코딩 WEB2 - JavaScript을 보고 저에게 맞게 정리한 글입니다.<br>
-<a href="https://opentutorials.org/course/3085" target="_blank">생활코딩 사이트로 이동합니다.</a> <br>
-생활코딩 짱</div>
+
+생활코딩 WEB2 - JavaScript을 보고 저에게 맞게 정리한 글입니다.
+
+<a href="https://opentutorials.org/course/3085" target="_blank">생활코딩 사이트로 이동합니다.</a>
 
 ---
 

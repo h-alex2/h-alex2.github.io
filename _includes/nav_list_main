@@ -36,11 +36,21 @@
             </ul>
         <span class="nav__sub-title">ETC</span>
             <ul>        
-                {% for category in site.categories %}
+                <li>{% for category in site.categories %}
                     {% if category[0] == "github" %}
                         <li><a href="/categories/github" class="">GITHUB({{category[1].size}})</a></li>
                     {% endif %}
-                {% endfor %}
+                {% endfor %}</li>
+                <li>{% for category in site.categories %}
+                    {% if category[0] == "util" %}
+                        <li><a href="/categories/util" class="">UTIL({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}</li>
+                <li>{% for category in site.categories %}
+                    {% if category[0] == "etc" %}
+                        <li><a href="/categories/etc" class="">ETC({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}</li>
             </ul>
       </li>
       </style>

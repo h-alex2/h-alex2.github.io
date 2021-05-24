@@ -3,11 +3,13 @@ title: "Dream Coding-JavaScript 04강"
 date: 2021-05-23
 category: javascript
 tags:
-  - JavaScript
+  - DreamCoding
 toc: true
 toc_sticky: true
 toc_label: “4. 코딩의 기본 operator, if, for loop 코드리뷰 팁 ”
 ---
+
+## Dream Coding-JavaScript 04강 - 4. 코딩의 기본 operator, if, for loop 코드리뷰 팁
 
 <br>
 {% include video id="YBjufjBaxHo" provider="youtube" %}

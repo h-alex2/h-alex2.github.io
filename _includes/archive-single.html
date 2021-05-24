@@ -27,10 +27,19 @@
       {% endif %}
     </h2>
     {% if post.date %}
-    <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%B %d %Y" }}</p>
+    <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%B %d %Y" | post.categories }}
+      &nbsp;&nbsp;<span><a href="/categories/{{ post.categories }}">📒 {{ post.categories }}</a></span>&nbsp;&nbsp;
+      {% if post.tags[0] == null %}
+      {% else %}
+      <span><a href="/tags/#{{ post.tags }}">#{{ post.tags }}</a></span>
+      {% endif %}
+
+    </p>
+
     {% endif %}
+		
     {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.content  | markdownify | strip_html | truncate: 200 }}</p>{% endif %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 200 }}</p>{% endif %}
   </article>
   <br>
 </div>

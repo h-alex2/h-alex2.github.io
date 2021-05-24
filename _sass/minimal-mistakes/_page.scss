@@ -55,18 +55,27 @@ body {
     width: 100%;
     clear: both;
 
-    .page__content,
+    .page__content ,
     .page__meta,
-    .page__share {
+    .page__share pre:not(.highlight) {
       position: relative;
       float: left;
       margin-left: 0;
       margin-right: 0;
       width: 100%;
       clear: both;
+      font-size: 0.85em;
     }
   }
 }
+
+
+pre.highlight {
+  font-size: 1.15em;
+}
+
+
+
 
 .page__title {
   margin-top: 0;
@@ -105,14 +114,13 @@ body {
 		}
 	}
 
-  p,
-  li {
-    font-size: $type-size-52;
-  }
+  // li {
+  //   font-size: 0.9em;
+  // }
 
-  dl {
-    font-size: $type-size-42;
-  }
+  // dl {
+  //   font-size: $type-size-42;
+  // }
 
 
 

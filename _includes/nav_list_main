@@ -9,7 +9,7 @@
       <!--전체 글 수-->
       <span style=font-size:0.8em;>
       <li>
-           <a href="/planw/2105-5rd-week/"><span style=font-size:18px;>👻</a></span> <span style=color:gray;>Total</style> {{sum}}
+           <a href="/categories/planw"><span style=font-size:18px;>👻</a></span> <span style=color:gray;>Total</style> {{sum}}
       </li>
       <li> 
         <span class="nav__sub-title">Menu</span>

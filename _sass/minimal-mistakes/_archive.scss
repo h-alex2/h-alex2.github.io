@@ -90,7 +90,9 @@
 .archive__item-excerpt {
   // margin-top: 0;
   margin-bottom: 3em;
-  font-size: $type-size-6;
+  font-size: $type-size-7;
+  color: #6F6F6F;
+  line-height: 2em;
 
   & + p {
     text-indent: 0;

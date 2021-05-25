@@ -40,3 +40,32 @@ const multiply = (b, c) => b *+* c;
 const remainder = (b, c) => b % c;
 ```
 
+
+
+ellie's answer 
+
+```javascript
+function calculation(command, a, b) {
+    switch (command) {
+        case 'add':
+            return a + b;
+        case 'substrat':
+            return a - b;
+        case 'divide':
+            return a / b;
+        case 'multiply':
+            return a *+* b;
+        case 'remainder':
+            return a % b;
+        dafault:
+            throw Error('unknown command');
+    }
+}
+```
+
+
+정해진 데이터를 처리하는 경우에는 __switch__ 를 이용해서 만드는 게 더 좋다.
+
+
+switch 를 내가 잘 익히질 못했나보다.. 잘 생각이 나질 않았다.
+이런 기능이 있을 것 같은데.. 라고만 생각했네ㅎㅎ

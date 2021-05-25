@@ -25,25 +25,10 @@ function calculation(a, b, c) {
         console.log(b % c);
     }
 }
-
-const add = function(b, c) {
-    return b + c;
-};
-undefined
-const substract = function(b, c) {
-    return b - c;
-};
-undefined
-const divide = function(b, c) {
-    return b / c;
-};
-undefined
-const multiply = function(b, c) {
-    return b * c;
-};
-undefined
-const remainder = function(b, c) {
-    return b % c;
-};
-undefined
+const add = (b, c) => b + c;
+const substract = (b, c) => b - c;
+const divide = (b, c) => b / c;
+const multiply = (b, c) => b *+* c;
+const remainder = (b, c) => b % c;
 ```
+

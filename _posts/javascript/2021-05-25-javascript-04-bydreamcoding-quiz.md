@@ -7,6 +7,14 @@ tags:
   - Quiz
 ---
 
+드림코딩 5강 퀴즈  
+function calculate라는 함수를 만들어서 입력받은 command에 따라서 연산하기 
+function calculate(command, a, b) 
+command: add, substract, divide, multiply, remainder
+
+
+
+
 ```javascript
 function calculation(a, b, c) {
     if (a == add) {

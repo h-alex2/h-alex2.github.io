@@ -13,7 +13,9 @@ toc_label: “6. 클래스와 오브젝트의 차이점(class vs object), 객체
 <link rel="stylesheet" type="text/css" href="/assets/CSS/markdown.css">
 
 
-
+<br>
+{% include video id="_DLhUBWsRtw" provider="youtube" %}
+<br>
 
 <details>
 <summary>객체지향언어란?</summary>

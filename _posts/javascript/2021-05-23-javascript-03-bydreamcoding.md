@@ -265,6 +265,7 @@ do {
 ##### for loop
 - for loop, for(begin; condition; step)
 - for(1.시작하는 문장; 2.컨디션; 3.어떤스텝을 밟을건지) 저 시작하는 문장은 __맨 처음 "한번만 실행한다"__
+
 ```javascript
 for (i = 3; i >0; i--) {
     console.log(`for: ${i}`);
@@ -275,7 +276,9 @@ for (let i = 3; i > 0; i = i - 2 ) {
     console.log(`inline variable for: ${i}`);
 }
 ```
+
 ##### for nested loops
+
 ```javascript
 for (let i = 0; i < 10; i++) {
      for (let j = 0; j < 10; j++) {

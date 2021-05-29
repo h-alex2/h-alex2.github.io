@@ -76,16 +76,17 @@ fruits.forEach(value: fruits, index: 1, array: fruits[]) => void, thisArg?: any 
 
 >   forEach(callbackfn: (value: T, index: number, array: T[]) => void, thisArg?: any): void;
 
-> * Calls a defined callback function on each element of an array, and returns an array that contains the results.       
-* @param callbackfn A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array.        
-* @param thisArg An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
-* 배열의 각 요소에 대해 정의 된 콜백 함수를 호출하고 결과를 포함하는 배열을 반환합니다.            
-* @param callbackfn 최대 3 개의 인수를받는 함수입니다. map 메서드는 배열의 각 요소에 대해 callbackfn 함수를 한 번 호출합니다.
+> * Performs the specified action for each element in an array.
+* @param callbackfn  A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array.
+* @param thisArg  An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
+* 배열의 각 요소에 대해 지정된 작업을 수행합니다.
+* @param callbackfn 최대 3 개의 인수를받는 함수입니다. forEach는 배열의 각 요소에 대해 callbackfn 함수를 한 번 호출합니다.
 * @param thisArg this 키워드가 callbackfn 함수에서 참조 할 수있는 객체입니다. thisArg가 생략되면 undefined가이 값으로 사용됩니다.
 
   </div>
 
-</details>
+</details>  
+<br>
 
 ```javascript
 fruits.forEach(function() {

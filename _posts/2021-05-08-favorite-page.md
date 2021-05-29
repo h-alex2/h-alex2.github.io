@@ -29,3 +29,17 @@ tags:
 
 - html color
   <https://htmlcolorcodes.com/>
+
+
+
+## Markdown 문법
+
+
+- 접기, 펼치기
+```
+<details>
+  <summary>제목</summary>
+  <div markdown="1">//내용 안에 markdown을 인식하기 위함
+    내용 적기
+</deatils>
+```

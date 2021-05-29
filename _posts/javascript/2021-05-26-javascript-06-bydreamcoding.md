@@ -6,10 +6,10 @@ tags:
   - DreamCoding
 toc: true
 toc_sticky: true
-toc_label: “7. 오브젝트 넌 뭐니? | 프론트엔드 개발자 입문편”
+toc_label: “7. 오브젝트 넌 뭐니?”
 ---
 
-## Dream Coding-JavaScript 07강 - 7. 오브젝트 넌 뭐니? | 프론트엔드 개발자 입문편
+## Dream Coding-JavaScript 07강 - 7. 오브젝트 넌 뭐니?
 <link rel="stylesheet" type="text/css" href="/assets/CSS/markdown.css">
 
 <br>

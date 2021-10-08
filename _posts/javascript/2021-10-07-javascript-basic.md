@@ -198,7 +198,7 @@ console.log(krAge);
 
 
 
-## Variable 변수  
+## conditionals 조건문
 
 ```javascript
 const age = parseInt(prompt("How old are you?"));
@@ -214,25 +214,25 @@ if (isNaN(age) || age <0) {
 }
 ```
 
-1. type을 변경하는 방법
-- __parseInt__   
-string to number 
-  - “123”같은 string만 숫자로 바꿀 수 있다.
-  - “aaa”는 처리하지 못해서 NaN으로 뜬다.
+* type을 변경하는 방법
 
-- __isNaN  
-return a Boolean value
-  - not a number : true
-  - number : false 
-  - boolean으로 반환하게 되면 조건문에 쓰기 유용하다.
+  - __parseInt__ : string to number 
+    - “123”같은 string만 숫자로 바꿀 수 있다.
+    - “aaa”는 처리하지 못해서 NaN으로 뜬다.
 
-2. 연산자 기호
-- and = &&
-- or = `||`
-- a === b 
-  : a is b 
-  : = 와 다르다 
-- a !== b
-  : a is not b
+  - __isNaN__ : return a Boolean value
+    - not a number : true
+    - number : false 
+    - boolean으로 반환하게 되면 조건문에 쓰기 유용하다.  
+<br>
+
+* 연산자 기호
+  - and = &&
+  - or = `||`
+  - a === b 
+    : a is b 
+    : = 와 다르다 
+  - a !== b
+    : a is not b
 
 

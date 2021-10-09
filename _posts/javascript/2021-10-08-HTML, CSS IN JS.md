@@ -30,7 +30,7 @@ javascript는 html을 가져올 수 있다. 이미 연결 되어 있다.
 
 ---
 
-- __querySelector , querySelectorAll__
+## document - querySelector , querySelectorAll
   - `querySelector` 
   : element를 CSS 방식으로 검색할 수 있다. 
   : 단 하나의 element를 return 해준다. 
@@ -95,6 +95,7 @@ title.addEventListener("click", handleTitleClick);
   - `addEventListener` 를 이용해서 title을 click하면 handleTitleClick함수를 실행시키게 해놓았다. 
   - "click" 부분이 바로 __event__ 이다. 
   - 함수를 실행하기 위해 () 를 사용할 필요 없다. javascript에게 실행하라고 시키기만 하면 된다. 
+  - `title.onclick = handleTitleClick;` 으로도 쓸 수 있지만 일관성이 없어서 이렇게는 잘 쓰지않는듯 하다.
 
 ---
 Web APIs   
@@ -102,3 +103,67 @@ Web APIs
 [MDN HTMLHeadingElement 사이트(클릭)](https://developer.mozilla.org/en-US/docs/Web/API/HTMLHeadingElement)
 에 들어가면 EVENT를 확인할 수 있다.  
 ➞ 인터넷 검색하여 찾거나 console.dir를 이용하여 찾는다. (on으로 시작하는 것들 사용할 때는 on을 빼고 사용)
+
+---
+## EVENT - Window
+<https://developer.mozilla.org/en-US/docs/Web/API/Window>
+
+```javascript
+function handleWindowResize(){
+  document.body.style.backgroundColor = "tomato";
+}
+window.addEventListener("resize", handleWindowResize);
+```
+: 브라우저 크기를 조절하면 배경색이 tomato색으로 바뀌게 된다. 
+- window의 event는 기본적으로 제공되는 event
+
+---
+<br>
+<span style = "color:red"> 정리 </span>
+- console에서 document의 <u>body, head, title</u> 이런 것들은 중요하기 때문에 document.body 이런식으로 불러올 수 있는 것
+- 나머지 element ((ex)body 안의 div) 들은 <span style = "color:red">querySelector, getElementById</span> 등으로 찾아와야 한다.
+<br><br>
+
+---
+## className, classList, toggle
+
+```javascript
+function handleTitleClick(){
+  if (h1.className === "clicked") {
+    h1.className = "";
+  } else {
+    h1.className = "clicked";
+  }
+}
+```
+css에서 정의해놓은 
+`clicked` 를 불러오기 위해서 저 위 js에 `clicked` 가 2번 쓰였다. 저걸 raw string이라고 함  
+➞ 저렇게 쓰는 대신 `const clickedClass = "clicked" ` 라고 const를 만들어서 `clicked` 대신 `clickedClass`를 쓰는 게 더 낫다. __오타로 인한 오류를 줄여준다.__ const 오타로 인해 에러가 나도 고치기가 훨 수월함.
+
+
+- `className`
+➞ html에 존재하는 class까지 다 바꿔버릴 수 있다.
+- `classList`
+➞ html에 존재하는 건 놔두고 추가가 가능하다. 
+- `toggle`   
+➞ If force is not given, "toggles" token, removing it if it's present and adding it if it's not present. If force is true, adds token (same as add()). If force is false, removes token (same as remove()).
+힘이 주어지지 않으면 토큰을 "전환"하여 토큰이 있으면 제거하고 없으면 추가합니다. force가 true이면 토큰을 추가합니다(add()와 동일). force가 false이면 토큰을 제거합니다(remove()와 동일).
+
+```javascript
+function handleTitleClick(){
+  const clickedClass = "clicked"
+  if (h1.classList.contains(clickedClass)){
+    h1.classList.remove(clickedClass);
+  } else {
+    h1.classList.add(clickedClass);
+  }
+}
+```
+```javascript
+function handleTitleClick(){
+  h1.classList.toggle("clicked");
+}
+
+h1.addEventListener("click", handleTitleClick);
+```
+이 두 가지 코드는 같은 결과를 낸다. `toggle` 덕분에 

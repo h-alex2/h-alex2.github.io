@@ -47,7 +47,7 @@ javascript는 html을 가져올 수 있다. 이미 연결 되어 있다.
   `const title = document.querySelector(".hello h1");` 를 통해서 가져올 수 있다. 
   - querySelector에서는 hello가 __class name__ 이라는 것과 그 안의 __h1__ 을 명시해줘야한다.
   - class name이 중복된다면 querySelector는 __첫번째__ 것만 가져온다. 
-  - class가 아닌 __ID__ 를 가져오는 것도 가능하다  
+  - class가 아닌 __ID__ 를 가져오는 것도 가능하다 __ID면 # 꼭 붙이기__
   `const title = document.querySelector("#hello");`  
   `const title = document.getEelementById("hello");`  
   ➞ 이 두가지는 같은 것이다.

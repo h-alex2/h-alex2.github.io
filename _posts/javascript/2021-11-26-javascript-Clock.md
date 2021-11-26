@@ -1,5 +1,5 @@
 ---
-title: "JS로 시계만들기"
+title: "JS로 시계만들기+DDAY만들기"
 date: 2021-11-26
 category: javascript
 tags:
@@ -32,3 +32,24 @@ tags:
   - 시간 값을 가져올 수 있다.   
   ```clock.innerText=(`${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`);```
 
+
+- DDAY 만들기
+
+```javascript
+const clock = document.querySelector("h2#clock");
+
+function handleclock() {
+  const date = new Date();
+  const christmas = new Date(2021, 11, 25);
+  const xmasDday = (christmas.getTime() - date.getTime());
+
+  const xmasDdayDay = String(Math.floor(xmasDday / (1000*60*60*24))).padStart(2, 0);
+  const xmasDdayHours = String(Math.floor((xmasDday / (1000*60*60))) % 24).padStart(2, 0);
+  const xmasDdayMin = String(Math.floor((xmasDday / (1000*60))) % 60).padStart(2, 0);
+  const xmasDdaySec = String(Math.floor((xmasDday / (1000))) % 60).padStart(2, 0);
+  clock.innerText = `${xmasDdayDay + "d "}${xmasDdayHours + "h "}${xmasDdayMin + "m "}${xmasDdaySec + "s"}`;
+}
+
+handleclock();
+setInterval(handleclock, 1000);
+```

@@ -51,25 +51,27 @@ tags:
 <summary>스케쥴러</summary>
 
 <details>
-  <div markdown="1">
-  </div>
+  <div markdown="1"> </div>
   <head>
     <link rel="stylesheet" type="text/css" href="/assets/css/weeklyplan_table.css">
   </head>
   <body>
+
+  <div>✈️ 월 째주 주간계획표
+  </div><br>
   <div>
     <table>
       <thead class="day">
       <!--SUN ~ THU-->
         <tr style="text-align:right" >
           <td>SUN</td>
-          <td class = "date">01</td>
+          <td class = "date">21</td>
           <td>MON</td>
-          <td class = "date">02</td>
+          <td class = "date">22</td>
           <td>THU</td>
-          <td class = "date">03</td>
+          <td class = "date">23</td>
           <td>WED</td>
-          <td class = "date">04</td>
+          <td class = "date">24</td>
         </tr>
       </thead>
       <tbody id="todo-list">
@@ -92,16 +94,16 @@ tags:
       <thead class="day">
         <tr style="text-align:right" >
           <td>THU</td>
-          <td class = "date">05</td>
+          <td class = "date">25</td>
           <td>FRI</td>
-          <td class = "date">06</td>
+          <td class = "date">26</td>
           <td>SAT</td>
-          <td class = "date">07</td>
+          <td class = "date">27</td>
           <td></td>
           <td>MEMO</td>
         </tr>
       </thead>
-      <tbody id="todo-list">
+      <tbody colspan = "8" id="todo-list"> 
         <tr class="text">
         <!--본문-->
           <td colspan = "2"> <!--목요일-->
@@ -118,21 +120,27 @@ tags:
           </td>
         </tr>
       </tbody>
-    </table>
+    </table><br><br>
   </div>
-  <div>
+
+
+
+  <div>✈️ 월 째주 주간계획표
+  </div><br>
+
+   <div>
     <table>
       <thead class="day">
       <!--SUN ~ THU-->
         <tr style="text-align:right" >
           <td>SUN</td>
-          <td class = "date">01</td>
+          <td class = "date">28</td>
           <td>MON</td>
-          <td class = "date">02</td>
+          <td class = "date">29</td>
           <td>THU</td>
-          <td class = "date">03</td>
+          <td class = "date">30</td>
           <td>WED</td>
-          <td class = "date">04</td>
+          <td class = "date">01</td>
         </tr>
       </thead>
       <tbody id="todo-list">
@@ -155,16 +163,16 @@ tags:
       <thead class="day">
         <tr style="text-align:right" >
           <td>THU</td>
-          <td class = "date">05</td>
+          <td class = "date">02</td>
           <td>FRI</td>
-          <td class = "date">06</td>
+          <td class = "date">03</td>
           <td>SAT</td>
-          <td class = "date">07</td>
+          <td class = "date">04</td>
           <td></td>
           <td>MEMO</td>
         </tr>
       </thead>
-      <tbody id="todo-list">
+      <tbody colspan = "8" id="todo-list"> 
         <tr class="text">
         <!--본문-->
           <td colspan = "2"> <!--목요일-->

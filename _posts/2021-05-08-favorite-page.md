@@ -49,6 +49,7 @@ tags:
 
 
 <summary>스케쥴러</summary>
+
 <details>
   <div markdown="1">
   </div>
@@ -56,79 +57,131 @@ tags:
     <link rel="stylesheet" type="text/css" href="/assets/css/weeklyplan_table.css">
   </head>
   <body>
-
-
   <div>
     <table>
-      <thead class="head">
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>1st 2nd 3rd</td>
-      </thead>
-      <thead class="date">
+      <thead class="day">
       <!--SUN ~ THU-->
-        <tr>
+        <tr style="text-align:right" >
           <td>SUN</td>
+          <td class = "date">01</td>
           <td>MON</td>
-          <td>TUE</td>
+          <td class = "date">02</td>
+          <td>THU</td>
+          <td class = "date">03</td>
           <td>WED</td>
+          <td class = "date">04</td>
         </tr>
       </thead>
       <tbody id="todo-list">
-        <tr class= "day">
-          <td>03</td>
-          <td>04</td>
-          <td>05</td>
-          <td>06</td>
-        </tr>
         <tr class="text">
         <!--본문-->
-          <td> <!--일요일-->
+          <td colspan = "2"> <!--일요일-->
             <li></li>
           </td>
-          <td> <!--월요일-->
+          <td colspan = "2"> <!--월요일-->
             <li></li>
           </td>
-          <td> <!--화요일-->
+          <td colspan = "2"> <!--화요일-->
             <li></li>
           </td>
-          <td> <!--수요일-->
+          <td colspan = "2"> <!--수요일-->
             <li></li>
           </td>
         </tr>
       </tbody>
-      <thead class="date2">
-        <tr>
+      <thead class="day">
+        <tr style="text-align:right" >
           <td>THU</td>
+          <td class = "date">05</td>
           <td>FRI</td>
+          <td class = "date">06</td>
           <td>SAT</td>
+          <td class = "date">07</td>
+          <td></td>
           <td>MEMO</td>
         </tr>
       </thead>
       <tbody id="todo-list">
-        <tr class= "day">
-          <td>07</td>
-          <td>08</td>
-          <td>09</td>
-          <td>📝</td>
-        </tr>
         <tr class="text">
         <!--본문-->
-          <td> <!--목요일-->
+          <td colspan = "2"> <!--목요일-->
             <li></li>
           </td>
-          <td> <!--금요일-->
+          <td colspan = "2"> <!--금요일-->
             <li></li>
           </td>
-          <td> <!--토요일-->
+          <td colspan = "2"> <!--토요일-->
             <li></li>
           </td>
-          <td> <!--메모장-->
+          <td colspan = "2"> <!--메모장-->
             <li></li>
           </td>
         </tr>
       </tbody>
     </table>
   </div>
+  <div>
+    <table>
+      <thead class="day">
+      <!--SUN ~ THU-->
+        <tr style="text-align:right" >
+          <td>SUN</td>
+          <td class = "date">01</td>
+          <td>MON</td>
+          <td class = "date">02</td>
+          <td>THU</td>
+          <td class = "date">03</td>
+          <td>WED</td>
+          <td class = "date">04</td>
+        </tr>
+      </thead>
+      <tbody id="todo-list">
+        <tr class="text">
+        <!--본문-->
+          <td colspan = "2"> <!--일요일-->
+            <li></li>
+          </td>
+          <td colspan = "2"> <!--월요일-->
+            <li></li>
+          </td>
+          <td colspan = "2"> <!--화요일-->
+            <li></li>
+          </td>
+          <td colspan = "2"> <!--수요일-->
+            <li></li>
+          </td>
+        </tr>
+      </tbody>
+      <thead class="day">
+        <tr style="text-align:right" >
+          <td>THU</td>
+          <td class = "date">05</td>
+          <td>FRI</td>
+          <td class = "date">06</td>
+          <td>SAT</td>
+          <td class = "date">07</td>
+          <td></td>
+          <td>MEMO</td>
+        </tr>
+      </thead>
+      <tbody id="todo-list">
+        <tr class="text">
+        <!--본문-->
+          <td colspan = "2"> <!--목요일-->
+            <li></li>
+          </td>
+          <td colspan = "2"> <!--금요일-->
+            <li></li>
+          </td>
+          <td colspan = "2"> <!--토요일-->
+            <li></li>
+          </td>
+          <td colspan = "2"> <!--메모장-->
+            <li></li>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </body>
 </details>

@@ -64,7 +64,8 @@ body {
       margin-right: 0;
       width: 100%;
       clear: both;
-      font-size: $type-size-52;
+      font-size: .8em;
+      // font-size: $type-size-6;
     }
   }
 }
@@ -110,10 +111,17 @@ pre.highlight {
 			transition: opacity 0.2s ease-in-out 0.1s;
 		}
 
+
 		&:hover .header-link {
 			opacity: 1;
 		}
 	}
+
+  ul {
+    margin: 0 0;
+  }
+
+  
 
   // li {
   //   font-size: 0.9em;
@@ -133,7 +141,8 @@ pre.highlight {
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
+    margin: 0 0;
+    // $indent-var
 
     /* sibling indentation*/
     @if $paragraph-indent == true {

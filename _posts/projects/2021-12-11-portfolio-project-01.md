@@ -11,7 +11,7 @@ tags:
 ---
 
 
-<a href="/assets/post_img/211211_prototyping.JPG"><img src="/assets/post_img/211211_prototyping.JPG"></a>
+<a href="/assets/post_img/211211_prototyping.JPG"><img src="21-12-11-01_prototyping.JPG"></a>
 
 layout 작업을 대강 다 한 것 같다. 
 피그마툴은 처음 써봤는데 포토샵이랑 비슷해서 만지기 쉬웠다. 크기 등 잘못된 부분이 많은 것 같지만 빨리 틀을 만들고 싶어서 눈에 보이는 결과물만 나오면 된다는 마음으로 만들었다. 

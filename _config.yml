@@ -7,7 +7,7 @@ locale                   : "en-US"
 title                    : "Yellow Blue Yellow"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Alex-hyun"
+name                     : "임현정 | Alex Im"
 description              : "Alex's blog."
 url                      : "https://h-alex2.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -86,7 +86,7 @@ author:
   name             : "Alex-hyun"
   avatar           : "/assets/profile-gray.png"
   bio              : "Winding road"
-  location         : "Somewhere"
+  location         : "Seoul"
   email            : "glowhyun1@gmail.com"
   links:
     - #label: "Email"

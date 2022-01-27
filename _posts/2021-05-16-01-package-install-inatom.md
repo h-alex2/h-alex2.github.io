@@ -1,7 +1,7 @@
 ---
 title: "Atom에서 package install하기"
 date: 2021-05-16
-category: util
+category: react
 tags:
   - atom
 ---

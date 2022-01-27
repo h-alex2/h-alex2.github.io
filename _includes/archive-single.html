@@ -10,7 +10,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item">
+<div class="{{ include.type | default: 'list' }}__item" style="margin-right:50px">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
     <div class="archive__item-teaser">
@@ -19,7 +19,11 @@
     {% endif %}
     
 
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline" >
+      {% if post.header.teaser == null %}
+      {% else %}
+      <img src="{{ post.header.teaser }}" alt="" width="600px"><br><br>
+      {% endif %}
       {% if post.link %}
       <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -39,7 +43,9 @@
     {% endif %}
 		
     {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 200 }}</p>{% endif %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 400 }}</p>{% endif %}
+    <!-- {% include page__meta.html type=include.type %} -->
+    
   </article>
-  <br>
+  <hr style="margin-top:40px">
 </div>

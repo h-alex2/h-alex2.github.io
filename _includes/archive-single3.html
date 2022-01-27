@@ -20,10 +20,6 @@
     
 
     <h2 class="archive__item-title no_toc" itemprop="headline" >
-      {% if post.header.teaser == null %}
-      {% else %}
-      <img src="{{ post.header.teaser }}" alt="" width="600px"><br><br>
-      {% endif %}
       {% if post.link %}
       <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -43,11 +39,9 @@
     {% endif %}
 		
     {% include page__meta.html type=include.type %}
-    <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.expert | strip_newlines | markdownify | strip_html | truncate: 400 }}</p>{% endif %} -->
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.content  | markdownify | strip_html | truncate: 150 }}</p>{% endif %}
-
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 100 }}</p>{% endif %}
     <!-- {% include page__meta.html type=include.type %} -->
     
   </article>
-  <hr style="margin-top:40px">
+
 </div>

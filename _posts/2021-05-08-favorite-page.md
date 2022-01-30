@@ -11,7 +11,7 @@ tags:
 
 
 <br>
-
+<link rel="stylesheet" type="text/css" href="/assets/CSS/markdown.css">
 
 - 지킬 서버로 블로그 연결하기 
   bundle exec jekyll serve <br>
@@ -34,10 +34,12 @@ tags:
 
 ## Markdown 문법
 
+`<link rel="stylesheet" type="text/css" href="/assets/CSS/markdown.css">`
+
 
 - 접기, 펼치기
 
-``` html
+```html
 <details>
   <summary>제목</summary>
   <div markdown="1">//내용 안에 markdown을 인식하기 위함
@@ -45,5 +47,18 @@ tags:
 </details>
 ```
 
+
+
 - 하이퍼링크 
-[Express 라우팅](https://expressjs.com/ko/guide/routing.html)
+`[Express 라우팅](https://expressjs.com/ko/guide/routing.html)`
+
+- 인용 
+`>` 
+
+- `<span style ="color:red"></span`
+
+- `<p id="d"><p>`
+<p id="d">이렇게 나오도록 하는 방법</P>
+
+- 이미지 넣기 
+`![ex_screenshot](/assets/post_img/22-01-28-02.png)`

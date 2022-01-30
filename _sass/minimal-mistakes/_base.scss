@@ -176,13 +176,13 @@ figcaption > code,
 td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: 0.9em;
+  // font-size: 0.9em;
   // background: $code-background-color;
   // background: #FFE139;
   color: #3A3A3A;
   background:#FFFDD5;
   border-radius: $border-radius;
-  padding: 0 5px 3px 5px;
+  padding: 0 0 2px 2px;
   // text-decoration: underline;
 
   &:before,

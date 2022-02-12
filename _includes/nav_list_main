@@ -39,11 +39,6 @@
                         <li><a href="/categories/react" class="">React({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}</li>
-                <li>{% for category in site.categories %}
-                    {% if category[0] == "nodejs" %}
-                        <li><a href="/categories/nodejs" class="">Nodejs({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}</li>
             </ul>
         <span class="nav__sub-title">ETC</span>
             <ul>        

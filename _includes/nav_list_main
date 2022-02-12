@@ -24,6 +24,15 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Project</span>
+            <ul>
+                <li>{% for category in site.categories %}
+                    {% if category[0] == "toyproject" %}
+                        <li><a href="/categories/toyproject" class="">Toy Project({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}</li>
+
+            </ul>
         <span class="nav__sub-title">JavaScript</span>
                 <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>

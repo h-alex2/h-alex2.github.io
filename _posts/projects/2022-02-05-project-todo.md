@@ -1,7 +1,7 @@
 ---
 title: "React로 TO-DO 만들기"
 date: 2022-02-05
-category: projects
+category: toyproject
 tags:
   - react
 header:

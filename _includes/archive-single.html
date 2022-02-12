@@ -10,7 +10,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: 'list' }}__item" style="margin-right:50px">
+<div class="{{ include.type | default: 'list' }}__item" >
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
     <div class="archive__item-teaser">
@@ -22,7 +22,9 @@
     <h2 class="archive__item-title no_toc" itemprop="headline" >
       {% if post.header.teaser == null %}
       {% else %}
-      <img src="{{ post.header.teaser }}" alt="" width="600px"><br><br>
+
+      <!-- post 타이틀 이미지 추가하기 -->
+      <img src="{{ post.header.teaser }}" alt="" width="800px"><br><br>
       {% endif %}
       {% if post.link %}
       <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>

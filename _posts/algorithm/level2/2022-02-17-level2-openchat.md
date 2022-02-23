@@ -3,10 +3,10 @@ title: "프로그래머스 코딩테스트(JavaScript) Lv.1 - 오픈채팅방"
 date: 2022-02-16 23:35:54+0900
 category: coding-test
 tags:
-  - level1
+  - level2
   - coding-test
 header:
-  teaser: "/assets/post_img/22-02-16-02.png"
+  teaser: "/assets/post_img/22-02-17-02.png"
 ---
 <br>
 
@@ -115,4 +115,3 @@ function solution(record) {
 }
 
 ```
-

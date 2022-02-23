@@ -6,7 +6,7 @@ tags:
   - level1
   - coding-test
 header:
-  teaser: "/assets/post_img/22-02-16-02.png"
+  teaser: "/assets/post_img/22-02-16-03.png"
 ---
 <br>
 
